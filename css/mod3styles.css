@@ -1,0 +1,4 @@
+/* Main styles that remain consistant through all devices */
+ * {
+    box-sizing: border-box;
+ }
