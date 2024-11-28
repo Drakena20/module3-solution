@@ -2,3 +2,95 @@
  * {
     box-sizing: border-box;
  }
+
+ body {
+   font-family: "Lexend", sans-serif;
+   font-weight: 100;
+   font-size: 16px;
+   background-color: antiquewhite;
+   color: #222222;
+ }
+
+ /* Header & Navigation Bar styles */
+
+ #header-nav {
+   background-color: cadetblue;
+ }
+
+ .navbar-brand {
+   padding-top: 25px;
+   height: 100px;
+ }
+
+ .navbar-brand h1 { /* brand name */
+   color: rgb(90, 9, 9);
+   font-size: 1.5em;
+   font-weight: bold;
+   text-shadow: 1px 1px 1px #222222;
+   margin-top: 0;
+   margin-bottom: 0;
+   line-height: .75;
+ }
+
+ .navbar-brand a:hover, .navbar-brand a:focus {
+   text-decoration: none;
+ }
+
+ .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+   border: 1px solid rgb(90, 9, 9);
+ }
+
+ .navbar-header button.navbar-toggle {
+   clear: both;
+ }
+
+ #nav-list {
+   margin-top: 10px;
+ }
+
+ #nav-list a {
+   color:rgb(90, 9, 9);
+   text-align: center;
+   font-weight: 600;
+ }
+
+ #nav-list a:hover {
+   background-color: lightgray;
+ }
+
+ /* End of HEADER */
+
+ /* Large devices only */
+ @media (min-width: 1200px) {
+
+ }
+
+ /* Medium devices only */ 
+ @media (min-width: 992px) and (max-width: 1199px) {
+
+ }
+
+ /* Small devices only */
+ @media (min-width: 768px) and (max-width: 991px) {
+
+ }
+
+ /* X-small devices only */
+ @media (max-width: 767px) {
+
+   /* Header */
+   .navbar-brand {
+      padding-top: 10px;
+      height: auto;
+    }
+   
+    .navbar-brand h1 { /* Brand name */
+      font-size: 5vw;
+    }
+
+    /* Collapsed menu text */
+
+    #menu-nav-collapse-1 a {
+      font-size: 1.2em;
+    }
+ }
