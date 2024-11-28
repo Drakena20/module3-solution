@@ -24,7 +24,7 @@
 
  .navbar-brand h1 { /* brand name */
    color: rgb(90, 9, 9);
-   font-size: 1.5em;
+   font-size: 1.65em;
    font-weight: bold;
    text-shadow: 1px 1px 1px #222222;
    margin-top: 0;
@@ -60,6 +60,38 @@
 
  /* End of HEADER */
 
+ /* MAIN CONTENTS */
+
+ h2 {
+  font-weight: 800;
+  font-size: 1.5em;
+  color: rgb(90, 9, 9);
+ }
+
+ h3 {
+  font-weight: 700;
+  font-size: 1.25em;
+  color: rgb(90, 9, 9);
+ }
+
+ .description {
+  font-weight: 400;
+ }
+
+ .item {
+  background-color: #CCCCCC;
+  margin: 15px 10px;
+  padding: 10px;
+  position: relative;
+  box-shadow: 1px 1px 1px #222222;
+ }
+
+ .top-link {
+  
+ }
+
+ /* END OF CONTENTS */
+
  /* Large devices only */
  @media (min-width: 1200px) {
 
@@ -92,5 +124,25 @@
 
     #menu-nav-collapse-1 a {
       font-size: 1.2em;
+    }
+
+    #nav-list li {
+      margin: 5px;
+    }
+
+    /* Contents */
+
+    h2 {
+      font-size: 1.3em;
+    }
+
+    h3 {
+      font-size: 1.1em;
+    }
+
+    .item {
+      max-width: 80%;
+      margin-left: auto;
+      margin-right: auto;
     }
  }
