@@ -49,13 +49,14 @@
  }
 
  #nav-list a {
-   color:rgb(90, 9, 9);
-   text-align: center;
-   font-weight: 600;
+    color: rgb(90, 9, 9);
+    text-align: center;
+    margin: 0px;
+    font-weight: 600;
  }
 
  #nav-list a:hover {
-   background-color: lightgray;
+    background-color: #CCCCCC;
  }
 
  /* End of HEADER */
@@ -72,6 +73,7 @@
   font-weight: 700;
   font-size: 1.25em;
   color: rgb(90, 9, 9);
+	margin-bottom: 20px;
  }
 
  .description {
@@ -80,15 +82,33 @@
 
  .item {
   background-color: #CCCCCC;
-  margin: 15px 10px;
-  padding: 10px;
+  margin: 15px;
+  padding: 20px;
   position: relative;
   box-shadow: 1px 1px 1px #222222;
  }
 
  .top-link {
-  
+   position: absolute;
+	 bottom: -10px;
+	 right: -10px;
+	 width: 50px;
+	 height: 50px;
+	 padding: 7px;
+	 background-color: cadetblue;
+	 text-align: center;
+	 vertical-align: middle;
  }
+
+.top-link a {
+	color: antiquewhite;
+	font-size: 1.25em;
+}
+
+.top-link a:hover {
+	color: #CCCCCC;
+	text-decoration: none;
+}
 
  /* END OF CONTENTS */
 
@@ -124,10 +144,16 @@
 
     #menu-nav-collapse-1 a {
       font-size: 1.2em;
+		border-bottom: 1px solid #222222;
     }
+	 
+	 #nav-list {
+		 padding: 0px;
+		 margin-bottom: 0px;
+	 }
 
     #nav-list li {
-      margin: 5px;
+      margin: 0px;
     }
 
     /* Contents */
@@ -137,7 +163,7 @@
     }
 
     h3 {
-      font-size: 1.1em;
+      font-size: 1.2em;
     }
 
     .item {

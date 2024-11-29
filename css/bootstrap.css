@@ -4360,6 +4360,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin: 0;
   }
   .navbar-nav > li {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
     float: left;
   }
   .navbar-nav > li > a {
